@@ -21,6 +21,7 @@ if (isset($_POST['submit'])) {
         // Aquí va la función valid_freeEmail($email) que haría una consulta a
         // la base de datos para comprobar que el email no esté ya registrado. Si lo está, lanzaría una excepción.
         if (!valid_freeEmail($conn, $email)) {
+            alert_popup('El email ingresado ya está registrado. Por favor, utiliza otro email.');
             throw new Exception("'Alerta de Backend: El email ingresado ya está registrado. Por favor, utiliza otro email.'");
         }
 
