@@ -59,6 +59,32 @@ function noLetras(e) {
         e.preventDefault();
     }
 }
+
+// Contraseña. Se probará que la contraseña tenga un mínimo de 8 carácteres, al menos una letra mayúscula, una letra minúscula, 
+// un número y un carácter especial.
+function validPasswd(e) {
+    const regex_passwd = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+    const input_passwd = document.getElementById("input_passwd");
+
+    if (regex_passwd.test(input_passwd.value)) {
+        input_passwd.setCustomValidity("");
+    } else {
+        input_passwd.setCustomValidity("La contraseña debe tener al menos 8 caracteres, incluyendo una letra mayúscula, una letra minúscula, un número y un carácter especial.");
+    }
+}
+
+// Para comprobar que la contraseña introducida en el campo de confirmación es igual a la del campo de contraseña
+function validConfPasswd(e) {
+    const input_passwd = document.getElementById("input_passwd");
+    const input_confirm_passwd = document.getElementById("input_confPasswd");
+
+    if (input_passwd.value === input_confirm_passwd.value) {
+        input_confirm_passwd.setCustomValidity("");
+    } else {
+        input_confirm_passwd.setCustomValidity("Las contraseñas no coinciden.");
+    }
+}
+
 function backspChecker(e) {
     var key = e.keyCode; //Instanciamos una variable que solo recoga el carácter introducido
 

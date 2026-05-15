@@ -1,0 +1,63 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="lbyqAJ2pbNUaPLmaP6jL">
+    <mxGraphModel dx="983" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="840" pageHeight="840" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ou5eFKYCVWhIMNaSeTvd-2" edge="1" parent="1" source="Ou5eFKYCVWhIMNaSeTvd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="100" />
+              <mxPoint x="200" y="100" />
+            </Array>
+            <mxPoint x="240" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ou5eFKYCVWhIMNaSeTvd-16" edge="1" parent="1" source="Ou5eFKYCVWhIMNaSeTvd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="Ou5eFKYCVWhIMNaSeTvd-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou5eFKYCVWhIMNaSeTvd-17" edge="1" parent="1" source="Ou5eFKYCVWhIMNaSeTvd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="Ou5eFKYCVWhIMNaSeTvd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou5eFKYCVWhIMNaSeTvd-18" edge="1" parent="1" source="Ou5eFKYCVWhIMNaSeTvd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="Ou5eFKYCVWhIMNaSeTvd-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou5eFKYCVWhIMNaSeTvd-19" edge="1" parent="1" source="Ou5eFKYCVWhIMNaSeTvd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="Ou5eFKYCVWhIMNaSeTvd-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ou5eFKYCVWhIMNaSeTvd-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Camisaedit&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="130" x="30" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou5eFKYCVWhIMNaSeTvd-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#1A1A1A;" value="BDSQLs" vertex="1">
+          <mxGeometry height="60" width="240" x="240" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou5eFKYCVWhIMNaSeTvd-8" parent="Ou5eFKYCVWhIMNaSeTvd-3" style="text;strokeColor=none;fillColor=#4D4D4D;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;spacingTop=0;spacing=2;gradientColor=none;" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;camisedit_bd.sql&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="40" width="240" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou5eFKYCVWhIMNaSeTvd-6" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=light-dark(#000000,#1A1A1A);" value="Controller" vertex="1">
+          <mxGeometry height="200" width="240" x="240" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou5eFKYCVWhIMNaSeTvd-7" parent="Ou5eFKYCVWhIMNaSeTvd-6" style="text;strokeColor=none;fillColor=#4D4D4D;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;bdcon&lt;/font&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;bdcon.php&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;controllerCommon.php&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;get_pedido_details.php&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;get_ropa_detail.php&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;pedidoController.php&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;ropasController.php&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;userController.php&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="180" width="240" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou5eFKYCVWhIMNaSeTvd-10" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#1A1A1A;" value="Model" vertex="1">
+          <mxGeometry height="80" width="240" x="240" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou5eFKYCVWhIMNaSeTvd-11" parent="Ou5eFKYCVWhIMNaSeTvd-10" style="text;strokeColor=none;fillColor=#4D4D4D;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=15;" value="&lt;ul&gt;&lt;li&gt;loginReg.js&lt;/li&gt;&lt;li&gt;profile.js&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="60" width="240" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou5eFKYCVWhIMNaSeTvd-13" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#1A1A1A;" value="View" vertex="1">
+          <mxGeometry height="280" width="240" x="240" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou5eFKYCVWhIMNaSeTvd-14" parent="Ou5eFKYCVWhIMNaSeTvd-13" style="text;strokeColor=none;fillColor=#4D4D4D;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=15;" value="&lt;ul&gt;&lt;li&gt;img&lt;/li&gt;&lt;ul&gt;&lt;li&gt;[img utilizadas por index.html]&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;styles&lt;/li&gt;&lt;ul&gt;&lt;li&gt;formEditorStyle.css&lt;/li&gt;&lt;li&gt;generalStyle.css&lt;/li&gt;&lt;li&gt;indexStyle.css&lt;/li&gt;&lt;li&gt;loginRegStyle.css&lt;/li&gt;&lt;li&gt;profileStyle.css&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;formEdtior.php&lt;/li&gt;&lt;li&gt;login.php&lt;/li&gt;&lt;li&gt;profile.php&lt;/li&gt;&lt;li&gt;register.php&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="260" width="240" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ou5eFKYCVWhIMNaSeTvd-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4D4D4D;" value="index.html" vertex="1">
+          <mxGeometry height="40" width="240" x="240" y="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

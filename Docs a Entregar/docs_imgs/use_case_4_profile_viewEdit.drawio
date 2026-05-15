@@ -1,0 +1,67 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="odSqqEuzgupKM3gKPWri">
+    <mxGraphModel dx="679" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="840" pageHeight="840" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="riCmNubfAC22sBBYcLVE-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="60" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="riCmNubfAC22sBBYcLVE-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="350" width="490" x="130" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="riCmNubfAC22sBBYcLVE-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Camisaedit" vertex="1">
+          <mxGeometry height="20" width="70" x="130" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yElt0M6_XygxCpQg2b1o-12" edge="1" parent="1" source="riCmNubfAC22sBBYcLVE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="yElt0M6_XygxCpQg2b1o-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yElt0M6_XygxCpQg2b1o-13" connectable="0" parent="yElt0M6_XygxCpQg2b1o-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Use" vertex="1">
+          <mxGeometry relative="1" x="-0.0262" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="riCmNubfAC22sBBYcLVE-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Quiere mirar/editar su pedido" vertex="1">
+          <mxGeometry height="50" width="145" x="172.5" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="riCmNubfAC22sBBYcLVE-13" edge="1" parent="1" source="riCmNubfAC22sBBYcLVE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="riCmNubfAC22sBBYcLVE-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yElt0M6_XygxCpQg2b1o-15" edge="1" parent="1" source="yElt0M6_XygxCpQg2b1o-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="yElt0M6_XygxCpQg2b1o-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yElt0M6_XygxCpQg2b1o-16" connectable="0" parent="yElt0M6_XygxCpQg2b1o-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="View" vertex="1">
+          <mxGeometry relative="1" x="-0.0381" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yElt0M6_XygxCpQg2b1o-18" edge="1" parent="1" source="yElt0M6_XygxCpQg2b1o-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="yElt0M6_XygxCpQg2b1o-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yElt0M6_XygxCpQg2b1o-19" connectable="0" parent="yElt0M6_XygxCpQg2b1o-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Edit" vertex="1">
+          <mxGeometry relative="1" x="-0.1048" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yElt0M6_XygxCpQg2b1o-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Profile.php" vertex="1">
+          <mxGeometry height="50" width="145" x="172.5" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="yElt0M6_XygxCpQg2b1o-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Profile.php" vertex="1">
+          <mxGeometry height="50" width="145" x="172.5" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="yElt0M6_XygxCpQg2b1o-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Edición" vertex="1">
+          <mxGeometry height="50" width="145" x="470" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="yElt0M6_XygxCpQg2b1o-21" edge="1" parent="1" source="riCmNubfAC22sBBYcLVE-10" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.468;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.468;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" target="riCmNubfAC22sBBYcLVE-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="230" as="sourcePoint" />
+            <mxPoint x="380" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yElt0M6_XygxCpQg2b1o-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Admin" vertex="1">
+          <mxGeometry height="30" width="60" x="360" y="65" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

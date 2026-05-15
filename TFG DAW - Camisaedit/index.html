@@ -3,16 +3,18 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Página Principal</title>
+        <title>Camisaedit - ¡Bienvenido a Camisaedit!</title>
         <!-- Enlace a archivo CSS en la carpeta styles -->
-        <link rel="stylesheet" href="./View/styles/generalStyle.css" />
+        <link rel="stylesheet" href="./view/styles/generalStyle.css" />
+        <link rel="stylesheet" href="./view/styles/indexStyle.css" />
+        <!-- <script src="../model/index.js" type="text/javascript"></script> -->
     </head>
     <body>
         <header>
             <div class="container bar">
                 <div id="logo">
                     <img
-                        src="./View/img/Logo-camisaEdit.svg"
+                        src="./view/img/Logo-camisaEdit.svg"
                         alt="Logo Camisaedit"
                         width="40"
                         height="40" />
@@ -26,7 +28,7 @@
                         <li><a href="index.html">Inicio</a></li>
                         <li><a href="#">Acerca de</a></li>
                         <li><a href="#">Contacto</a></li>
-                        <li><a id="link_iniSess_nav" href="./View/login.html">Iniciar Sesión</a></li>
+                        <li><a id="link_iniSess_nav" href="./view/login.php">Iniciar Sesión</a></li>
                     </ul>
                 </nav>
             </div>
@@ -38,49 +40,35 @@
                     <div class="div_hero_greet">
                         <h1>Bienvenido a la Camisaedit</h1>
                     </div>
-                    <img src="" alt="" />
+                    <img
+                        src="./view/img/stock_people_running.jpg"
+                        alt="Stock image de gente corriendo" />
                 </div>
             </section>
-            <!--Puestos destacados-->
+            <!--Camisetas destacadas-->
             <section id="secc_featured">
                 <div class="box_featured">
-                    <h2>Puestos Destacados</h2>
-                    <div class="div_featured_puestos">
-                        <div class="div_puesto_item">
-                            <img src="" alt="Puesto: Carnicería Juanjosé" />
-                            <h3>Carnicería RaZa NoSTRa</h3>
-                            <p>
-                                La carnicería Raza Nostra nos enorgullecemos de la calidad de
-                                nuestra selección de carnes 100% españolas, importándolas
-                                directamente de ganaderías locales que comparten nuestro compromiso
-                                con el bienestar medioambiental.
-                            </p>
-                            <a class="btn btn_sec" href="">¡Contacte con el puesto!</a>
+                    <h2>Descubre diseños únicos</h2>
+                    <div class="div_featured_camisetas">
+                        <div class="div_camiseta_card">
+                            <img src="./view/img/pexels-automnenoble-8225743.jpg" alt="Card 1" />
+                            <p></p>
+                            <a class="btn btn_sec" href="#">¡Copia este diseño!</a>
                         </div>
-                        <div class="div_puesto_item">
-                            <img src="" alt="Puesto: Fruitería Marijose" />
-                            <h3>Fruitería Marijose</h3>
-                            <p>
-                                Fundada originalmente en otro local, la famosa y centenial frutería
-                                Marijose vuelve a poner en venta sus frutas en La Alhóndiga después
-                                de 3 años de inactividad. Visítanos para descubrir nuestras ofertas
-                                de temporada y sabores de calidad y confianza.
-                            </p>
-                            <a class="btn btn_sec" href="">¡Contacte con el puesto!</a>
+                        <div class="div_camiseta_card">
+                            <img src="./view/img/pexels-karola-g-6256275.jpg" alt="Card 2" />
+                            <p></p>
+                            <a class="btn btn_sec" href="#">¡Copia este diseño!</a>
                         </div>
-                        <div class="div_puesto_item">
-                            <img src="" alt="Puesto: Verduras el Tallo" />
-                            <h3>Verduras el Tallo</h3>
-                            <p>
-                                En Verduras El Tallo, donde ofrecemos las verduras y hortalizas más
-                                frescas y saludables para usted. Nuestro compromiso es con la
-                                calidad y la sostenibilidad, trabajando con agricultores locales
-                                para ofrecer la mejor calidad al menor precio.
-                            </p>
-                            <a class="btn btn_sec" href="">¡Contacte con el puesto!</a>
+                        <div class="div_camiseta_card">
+                            <img
+                                src="./view/img/pexels-bandar-baant-2160637741-37043496.jpg"
+                                alt="Card 3" />
+                            <p></p>
+                            <a class="btn btn_sec" href="#">¡Copia este diseño!</a>
                         </div>
                     </div>
-                    <a class="btn btn_sec" href="">Ver todos los puestos</a>
+                    <a class="btn btn_sec" href="">¡Crea tu propia camiseta!</a>
                 </div>
             </section>
             <!-- SOBRE NOSOTROS -->
@@ -88,60 +76,65 @@
                 <h2>Sobre Nosotros</h2>
                 <div id="div_aboutus">
                     <article class="div_aboutus_item">
-                        <img src="" alt="Imagen: Dueño de la Alhóndiga" />
+                        <img
+                            src="./view/img/pexels-fatih-kilic-2147998200-31847523.jpg"
+                            alt="Imagen: CEO de Camisaedit" />
                         <div>
-                            <h4>Manuel Rivero García</h4>
+                            <h4>Camisedit: Una marca de confianza</h4>
                             <p>
-                                Manuel Rivero García es el orgulloso propietario de La Alhóndiga, un
-                                mercado de barrio con una rica historia que se remonta a más de un
-                                siglo. Antes de su clausura temporal, el señor Rivero gestionaba su
-                                propio puesto de frutas y verduras en el mercado, lo que le brindó
-                                una profunda comprensión de las necesidades y deseos de la comunidad
-                                local.<br />
+                                Camisaedit es una marca de camisetas personalizadas que se
+                                enorgullece de ofrecer productos de alta calidad y diseños únicos.
+                                Fundada por Manuel Rivero García, un apasionado emprendedor con una
+                                visión clara de lo que quería lograr, Camisaedit ha crecido
+                                rápidamente desde su creación. <br />
                                 <br />
-                                Ahora, como dueño de La Alhóndiga, el señor Rivero está comprometido
-                                a revitalizar este emblemático mercado cinco años después tras
-                                reformas extensas, y convertirlo en el centro vecindal que una vez
-                                fue este lugar.
+                                <em
+                                    >"Nuestro objetivo es proporcionar a nuestros clientes camisetas
+                                    que no solo sean cómodas y duraderas, sino que también reflejen
+                                    su estilo personal y les permitan expresarse de manera
+                                    creativa."</em
+                                >
+                                - Manuel Rivero García.
                             </p>
                         </div>
                     </article>
                     <article class="div_aboutus_item">
                         <div>
-                            <h4>El mercado de toda la vida</h4>
+                            <h4>Camisetas para todos</h4>
                             <p>
-                                Con la reapertura de La Alhóndiga, el señor Rivero aspira a revivir
-                                la esencia del mercado que perdimos tras el incendio, así volviendo
-                                a atraer a la comunidad de vendedores que daban al lugar el encanto
-                                que tenía, al igual que invitar a algunas caras nuevas. <br />
+                                Cemisaedit se esfuerza por ofrecer una amplia variedad de camisetas
+                                para satisfacer los gustos y necesidades de todos sus clientes.
+                                Desde diseños divertidos y coloridos para ropa de ocio hasta
+                                opciones más minimalistas con textil transpirable para ejercicio,
+                                Camisaedit tiene algo para cada persona! <br />
                                 <br />
-                                "Queremos que La Alhóndiga vuelva a ser el corazón del barrio, un
-                                lugar donde los vecinos puedan volver a encontrarse, compartir
-                                sonrisas y encontrar asilo de los precios desorbitados de los
-                                supermercados grandes." - Manuel Rivero García.
                             </p>
                         </div>
-                        <img src="" alt="Imagen: Foto con los propietarios de puestos" />
+                        <img
+                            src="./view/img/pexels-pexels-latam-478514802-17979436.jpg"
+                            alt="Imagen: Gente corriendo con nuestras camisetas" />
                     </article>
                     <article class="div_aboutus_item">
                         <div>
                             <h4>Nuestra localización</h4>
-                            <p>C/retamares de la cruz, 28, Madrid, España <br /></p>
+                            <p>C/Retamares de la cruz, 28, Madrid, España <br /></p>
                         </div>
-                        <img src="" alt="Imagen: API de google maps enseñándo la localización." />
+                        <img
+                            src="./view/img/imagen_stock_maps.jpg"
+                            alt="Imagen: API de google maps enseñándo la localización." />
                     </article>
                     <article class="div_aboutus_item item_contact">
                         <div>
                             <h4>Contacto y redes sociales</h4>
                             <ul>
                                 <li>
-                                    <p><strong>Email oficial:</strong> servicio@laalhondiga.es</p>
+                                    <p><strong>Email oficial:</strong> servicio@camisaedit.es</p>
                                 </li>
                                 <li>
                                     <p><strong>Teléfono oficial:</strong> +34 123 456 789</p>
                                 </li>
                                 <li>
-                                    <p><strong>Instagram oficial:</strong> @la_alhondiga_mercado</p>
+                                    <p><strong>Instagram oficial:</strong> @camisaedit</p>
                                 </li>
                             </ul>
                         </div>
@@ -151,9 +144,8 @@
         </main>
         <!-- FOOTER -->
         <footer>
-            <p>&copy; 2026 Iru Borredá Bin. Todos los derechos reservados.</p>
+            <p>&nbsp; &copy; 2026 Iru Borredá Bin. Todos los derechos reservados.</p>
         </footer>
         <!-- Enlace a archivo JavaScript en la carpeta Model -->
-        <script src=""></script>
     </body>
 </html>

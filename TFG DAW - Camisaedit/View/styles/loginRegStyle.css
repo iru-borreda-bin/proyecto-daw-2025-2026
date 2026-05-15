@@ -1,0 +1,71 @@
+h2 {
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#sect_form {
+    display: box;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 70%;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    border: 2px solid #66a7f1;
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 95%;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    border: #66a7f1 2px solid;
+}
+
+legend {
+    color: #3475c0;
+}
+
+input {
+    /*CSS para los inputs*/
+    min-width: 15rem;
+    max-width: 20rem;
+    border-radius: 0.5rem;
+    height: 1.5rem;
+    margin: 0.5rem;
+}
+
+#btn_add_entrada:hover {
+    /*CSS específico para el botón de añadir nota*/
+    background-color: green;
+    color: #ffffff;
+}
+
+#btn_add_entrada:disabled,
+#btn_add_entrada:hover:disabled {
+    color: #464545;
+    border: #464545 2px solid;
+    background-color: #adadad;
+}
+
+/*Para reactividad cuando haya algún campo inválido*/
+[aria-live="polite"] {
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+
+.div_input:has(:user-invalid) {
+    input {
+        border: 2px solid red;
+    }
+
+    [aria-live="polite"] {
+        display: block;
+    }
+}

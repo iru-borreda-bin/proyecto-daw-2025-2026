@@ -1,0 +1,150 @@
+/*Hero*/
+.hero {
+    position: relative;
+    text-align: center;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.hero .div_hero_greet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding: 0rem 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#secc_greet {
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 500px) {
+    .div_hero_greet h1,
+    .div_hero_greet p {
+        font-size: 13px;
+    }
+}
+
+/* Camisetas destacadas */
+#secc_featured {
+    padding-top: 1rem;
+    background-color: #0f90a1;
+}
+.box_featured {
+    display: block;
+    text-align: center;
+}
+.box_featured h2 {
+    color: #fff;
+    margin-top: 0;
+}
+.div_featured_camisetas {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.div_camiseta_card {
+    background: #fff;
+    border: 1px solid #d9dde5;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    max-width: 20rem;
+    min-width: 10rem;
+    max-height: 25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+.div_camiseta_card img {
+    max-width: 100%;
+    border-radius: 0.5rem;
+    height: 70%;
+    margin: auto;
+    align-self: center;
+}
+
+@media (max-width: 450px) {
+    .div_camiseta_card img {
+        max-width: 100%;
+    }
+}
+
+/* Sobre Nosotros */
+#aboutus {
+    background: #fff;
+    padding: 1rem;
+}
+#div_aboutus {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+    border: #fff solid 1px;    
+    background-color: #0f4f8b;
+
+}
+.div_aboutus_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 1rem;
+}
+.div_aboutus_item img {
+    border-radius: 0.5rem;
+    max-width: auto;
+    height: 15rem;
+    margin: 0.75rem;
+}
+.item_contact {
+    align-items: flex-start;
+}
+
+@media (max-width: 950px) {
+    #div_aboutus {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* CONTACTO*/
+.box_contacto {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #d9dde5;
+    border-radius: 0.5rem;
+}
+
+#tlfno {
+    width: auto;
+}
+
+#chkbox_aviso {
+    width: auto;
+    vertical-align: middle;
+    margin-left: 1.5rem;
+}
+
+#chkbox_aviso_label {
+    margin-bottom: 1.5rem;
+}
+
+.wrapper_centered {
+    display: flex;
+    text-align: center;
+}

@@ -1,0 +1,70 @@
+/* Para controlar el preview del SVG */
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
+
+.edit_wraper {
+    border: 1px solid grey;
+    background-color: #8b8b8b;
+    margin-bottom: 1rem;
+}
+
+/* CSS para los botones*/
+.bar_select {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 1rem auto;
+}
+
+.bar_select button,
+.bar_select input[type="button"],
+.bar_select input[type="submit"] {
+    background-color: #fff;
+    border: 2px solid #3475c0;
+    color: #3475c0;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: none;
+    transition: 0.3s; /* Transición entre estados (colores) */
+}
+
+.bar_select button:hover,
+.bar_select input[type="button"]:hover,
+.bar_select input[type="submit"]:hover {
+    background-color: #27578f;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* CSS para el formulario en general*/
+fieldset {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 70%;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    border: #66a7f1 2px solid;
+}
+
+legend {
+    color: #3475c0;
+}
+
+input, select {
+    /*CSS para los inputs*/
+    min-width: 15rem;
+    max-width: 20rem;
+    border-radius: 0.5rem;
+    height: 1.5rem;
+    margin: 0.5rem;
+}
